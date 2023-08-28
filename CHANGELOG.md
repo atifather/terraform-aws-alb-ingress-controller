@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Bug Fix
 * Fixed `aws_iam_role_policy.this` role attribute with role name instead of role arn
+* Add permissions of tags in iam policy
 
 ## Note
 * Removed `kubernetes` required provider

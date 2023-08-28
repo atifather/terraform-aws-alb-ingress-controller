@@ -12,8 +12,8 @@ To deploy the AWS ALB Ingress Controller into an EKS cluster.
 
 ```hcl
 module "alb_controller" {
-  source  = "campaand/alb-controller/aws"
-  version = "~> 1.0"
+  source  = "atifather/alb-controller/aws"
+  version = "~> 1.0.1"
 
   cluster_name = var.cluster_name
 }
@@ -24,8 +24,8 @@ To deploy the AWS ALB Ingress Controller into an EKS cluster using different cus
 
 ```hcl
 module "alb_controller" {
-  source  = "campaand/alb-controller/aws"
-  version = "~> 1.0"
+  source  = "atifather/alb-controller/aws"
+  version = "~> 1.0.1"
 
   namespace    = "your-custom-namespace"
   cluster_name = var.cluster_name
@@ -52,8 +52,8 @@ You can add or overwrite this values using the settings variable, if you add a v
 
 ```hcl
 module "alb_controller" {
-  source  = "campaand/alb-controller/aws"
-  version = "~> 1.0"
+  source  = "atifather/alb-controller/aws"
+  version = "~> 1.0.1"
 
   cluster_name = var.cluster_name
   
